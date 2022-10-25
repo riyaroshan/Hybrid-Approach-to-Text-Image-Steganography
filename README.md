@@ -1,4 +1,4 @@
-Title of mini project :- Hybrid Approach to Text & Image Steganography using AES and LSB Technique 
+<h1>Hybrid Approach to Text & Image Steganography using AES and LSB Technique</h1>
 
 Platform we are using :-
 Python : Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance.
@@ -11,20 +11,11 @@ In the existing system the image or text is directly hidden in the cover image. 
 In our project the system first encrypts the given message using AES encryption and then it is written on to the cover image. This provides very high security. The system supports 24-bit and 32-bit BMP images. The system uses a unique LSB technique which stores more data than the original algorithm and also maintains good quality while doing so.
 
 
-
-
-
-
-
-
-
-
-Proposed method:
-Algorithm 
+Proposed Algorithm 
 
        AES (mode - EAX) 
-           Encrypt-then-authenticate-then-translate is a mode of operation performed on cryptographic block ciphers. 
-           It is a flexible nonce-using two pass AEAD (Authenticated Encryption with Associated Data) 
+       Encrypt-then-authenticate-then-translate is a mode of operation performed on cryptographic block ciphers. 
+       It is a flexible nonce-using two pass AEAD (Authenticated Encryption with Associated Data) 
 
        LSB 
         Firstly, we input the data that is to be encrypted into the cover image, this could be either text data or image data. 
